@@ -24,11 +24,27 @@
 }
 .presentationText{
     text-align: left;
-    padding-top: 25%;
+    padding-top: 20%;
     padding-left: 5%;
 }
 .presentationText>h1{
- margin-bottom: 2%;
+ margin-bottom: 5%;
+ color: whitesmoke;
+}
+.presentationText>button{
+    background-color: #0078d6;
+    border: none;
+    border-radius: 0.2em;
+    padding: 1em 2.5em;
+    
+}
+.presentationText>button:hover{
+    background-color: #014880;
+}
+.presentationText>button>a{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 
