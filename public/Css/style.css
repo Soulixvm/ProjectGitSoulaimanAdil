@@ -78,6 +78,9 @@
     flex-grow: 0;
     flex-shrink: 0;
 }
+.cardButton{
+    text-align: center;
+}
 
 /*our recommandation - scroll-bar style*/
 .ourRecommandationCards::-webkit-scrollbar {
