@@ -13,5 +13,24 @@
    background-color: white;
 }
 
+/*Home Page*/
+.presentation{
+
+    background-image: url(/public/photos/Home/Mercedes_Presentation.jpg);
+    background-size: cover;
+    width: auto;
+    height: 94vh;
+
+}
+.presentationText{
+    text-align: left;
+    padding-top: 25%;
+    padding-left: 5%;
+}
+.presentationText>h1{
+ margin-bottom: 2%;
+}
+
+
 
 /*Footer*/
