@@ -35,7 +35,7 @@
     color: whitesmoke;
 }
 
-.presentationText>button {
+.presentationText>button, .resumeDL a button {
     background-color: #0078d6;
     border: none;
     border-radius: 0.2em;
@@ -43,7 +43,7 @@
 
 }
 
-.presentationText>button:hover {
+.presentationText>button:hover, .resumeDL a button:hover {
     background-color: #014880;
 }
 
@@ -122,8 +122,18 @@
 #joinUsPage .presentationText p {
     margin: 0;
     color: #353431;
+}.photoExplicative img {
+    width: 100%;
 }
 
+.resumeDL {
+    margin: auto;
+    width: 50%;
+    height: fit-content;
+}
+.exo1{
+ margin-top: 2%; 
+}
 
 
 
