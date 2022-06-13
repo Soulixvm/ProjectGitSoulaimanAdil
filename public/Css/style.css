@@ -13,3 +13,52 @@
    background-color: white;
 }
 
+.bodymodele{
+    background-image: url(https://images4.alphacoders.com/984/thumb-1920-984379.jpg);
+    background-attachment: fixed;
+}
+
+
+
+.titremodele{
+  
+    text-align: center;
+    color: white;
+    
+}
+
+.imgmodele{
+    height: 65%;
+    width: 65%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 5px solid white;
+    
+}
+.titremodele{
+    margin:5%;
+    border: 5px solid white;
+    padding: 0;
+}
+
+.titrevoiture{
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.infomodele{
+    color: white;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.lienderoulant{
+    margin-left: 45%;
+    margin-right: 45%;
+    
+}
