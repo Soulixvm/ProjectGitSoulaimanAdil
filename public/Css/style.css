@@ -29,7 +29,8 @@
     padding-left: 5%;
 }
 
-.presentationText>h1 {
+.presentationText h1,
+.presentationText p {
     margin-bottom: 5%;
     color: whitesmoke;
 }
@@ -57,7 +58,8 @@
     height: 70vh;
     margin-left: 5%;
 }
-.ourRecommandation h1{
+
+.ourRecommandation h1 {
     padding: 2%;
 }
 
@@ -78,7 +80,8 @@
     flex-grow: 0;
     flex-shrink: 0;
 }
-.cardButton{
+
+.cardButton {
     text-align: center;
 }
 
@@ -86,12 +89,14 @@
 .ourRecommandationCards::-webkit-scrollbar {
     width: 12px;
 }
+
 .ourRecommandationCards::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
+
 .ourRecommandationCards::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -99,41 +104,83 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.7);
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
+
+/*Join us page*/
+#joinUsPage {
+    background-color: #383636;
+}
+
+.joinUsPresentation {
+    background-image: url(../photos/joinUs/stageelement.MQ6.0.20170922164546.jpeg);
+    background-size: cover;
+
+    width: auto;
+    height: 94vh;
+}
+
+#joinUsPage .presentationText h1,
+#joinUsPage .presentationText p {
+    margin: 0;
+    color: #353431;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*Footer*/
-footer{
+footer {
     background-color: black;
     color: whitesmoke;
     margin: 0;
 }
-.footerListSection, .footerCopyright{
+
+.footerListSection,
+.footerCopyright {
     margin: 0%;
     padding: 5%;
 }
-.footerListSection ul{
+
+.footerListSection ul {
     list-style: none;
     padding: 0%;
 }
-.footerListSection a, .footerCopyright a{
+
+.footerListSection a,
+.footerCopyright a {
     color: whitesmoke;
     text-decoration: none;
 }
-.footerListSection a:hover, .footerCopyright a:hover{
+
+.footerListSection a:hover,
+.footerCopyright a:hover {
     color: whitesmoke;
     text-decoration: underline;
 }
-.footerCopyright ul{
+
+.footerCopyright ul {
     padding: 2% 0% 0% 0%;
     border-top: 1px solid whitesmoke;
 }
-.footerCopyright li{
+
+.footerCopyright li {
     display: inline-block;
     margin-right: 2%;
 }
-.favicon{
+
+.favicon {
     border-top: 1px solid whitesmoke;
     padding: 2% 0% 0% 0%;
     display: inline-block;
 }
-.fa-brands:hover{
+
+.fa-brands:hover {
     color: #014880;
 }
