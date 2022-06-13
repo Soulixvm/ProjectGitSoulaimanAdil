@@ -129,3 +129,11 @@ footer{
     display: inline-block;
     margin-right: 2%;
 }
+.favicon{
+    border-top: 1px solid whitesmoke;
+    padding: 2% 0% 0% 0%;
+    display: inline-block;
+}
+.fa-brands:hover{
+    color: #014880;
+}
