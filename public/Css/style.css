@@ -100,3 +100,28 @@
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 /*Footer*/
+footer{
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+}
+.footerSection{
+    margin: 0%;
+    padding: 5%;
+}
+footer ul{
+    list-style: none;
+    padding: 0%;
+}
+footer ul a{
+    color: whitesmoke;
+    text-decoration: none;
+    position: relative;
+}
+footer ul a::before{
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    
+}
