@@ -194,3 +194,80 @@ footer {
 .fa-brands:hover {
     color: #014880;
 }
+.bodymodele{
+    background-image: url(https://images4.alphacoders.com/984/thumb-1920-984379.jpg);
+    background-attachment: fixed;
+    
+    background-size:100%;
+}
+
+
+
+.titremodele{
+  
+    text-align: center;
+    color: white;
+    
+}
+
+.imgmodele{
+    height: 65%;
+    width: 65%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 5px solid white;
+    
+}
+.titremodele{
+    margin:5%;
+    border: 5px solid white;
+    padding: 0;
+}
+
+.titrevoiture{
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.infomodele{
+    color: white;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.lienderoulant{
+    margin-left: 45%;
+    margin-right: 45%;
+    
+}
+
+.bodyquisommesnous{
+    background-image: url(https://rayandiscovery.com/wp-content/uploads/2018/01/mercedes-wallpaper-full-hd-For-Desktop-Wallpaper.jpg);
+    background-attachment: fixed;
+   
+    background-size:100%;
+}
+
+.accordion-item,
+.accordion-button,
+.accordion,
+.accordion-header {
+    background-color: rgba(14, 14, 14, 0.156) !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    color: white !important;
+    background-color: white;
+}
+
+.accordion-button::before {
+    color: white !important;
+    background-image: white;
+}
