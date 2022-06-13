@@ -113,15 +113,12 @@ footer ul{
     list-style: none;
     padding: 0%;
 }
-footer ul a{
+footer a{
     color: whitesmoke;
     text-decoration: none;
     position: relative;
 }
-footer ul a::before{
-    content: "";
-    position: absolute;
-    left: 0%;
-    bottom: 0%;
-    
+footer a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
 }
