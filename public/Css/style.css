@@ -16,7 +16,7 @@
 /*Home Page*/
 .presentation {
 
-    background-image: url(/public/photos/Home/Mercedes_Presentation.jpg);
+    background-image: url(../photos/Home/Mercedes_Presentation.jpg);
     background-size: cover;
     width: auto;
     height: 94vh;
