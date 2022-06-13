@@ -113,12 +113,11 @@ footer{
     list-style: none;
     padding: 0%;
 }
-.footerListSection a{
+.footerListSection a, .footerCopyright a{
     color: whitesmoke;
     text-decoration: none;
-    position: relative;
 }
-.footerListSection a:hover{
+.footerListSection a:hover, .footerCopyright a:hover{
     color: whitesmoke;
     text-decoration: underline;
 }
