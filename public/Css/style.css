@@ -105,20 +105,28 @@ footer{
     color: whitesmoke;
     margin: 0;
 }
-.footerListSection{
+.footerListSection, .footerCopyright{
     margin: 0%;
     padding: 5%;
 }
-footer ul{
+.footerListSection ul{
     list-style: none;
     padding: 0%;
 }
-footer a{
+.footerListSection a{
     color: whitesmoke;
     text-decoration: none;
     position: relative;
 }
-footer a:hover{
+.footerListSection a:hover{
     color: whitesmoke;
     text-decoration: underline;
+}
+.footerCopyright ul{
+    padding: 2% 0% 0% 0%;
+    border-top: 1px solid whitesmoke;
+}
+.footerCopyright li{
+    display: inline-block;
+    margin-right: 2%;
 }
